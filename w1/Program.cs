@@ -22,9 +22,7 @@ namespace w1
                 char CheckChar;
                 CheckChar = input[i];
 
-                if (CheckChar == '(' || CheckChar == ')')
-                {
-                    if (CheckChar == '(')
+                if (CheckChar == '(')
                     {
                         checkR1++;
                     }
@@ -32,11 +30,8 @@ namespace w1
                     {
                         checkR2++;
                     }
-                }
 
-                if (CheckChar == '[' || CheckChar == ']')
-                {
-                    if (CheckChar == '[')
+                if (CheckChar == '[')
                     {
                         checkS1++;
                     }
@@ -44,7 +39,6 @@ namespace w1
                     {
                         checkS2++;
                     }
-                }
             }
 
             Console.WriteLine("Кількіть відкритих круглих дужок - " + checkR1 + "\nКількіть закритих круглих дужок - " + checkR2 +
